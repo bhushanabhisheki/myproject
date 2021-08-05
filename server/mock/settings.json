@@ -1,0 +1,110 @@
+[
+  {
+    "setting_id": 1,
+    "name": "showDuplicates",
+    "display_name": "Show Duplicate",
+    "value": "true",
+    "description": "Show Duplicate",
+    "default_value": "true",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 2,
+    "name": "hideMediaLegs",
+    "display_name": "Hide Media Legs",
+    "value": "false",
+    "description": "This will hide media legs in the Exported HTML ladder",
+    "default_value": "false",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 3,
+    "name": "msisdn",
+    "display_name": "MSISDN Regular Expression",
+    "value": "^[\\(\\)\\-\\+\\*\\#\\:a-zA-Z0-9]{1,25}$",
+    "description": "MSISDN Regex",
+    "default_value": "^[\\(\\)\\-\\+\\*\\#\\%\\:a-zA-Z0-9]{1,25}$",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "String",
+    "group": "Others"
+  },
+  {
+    "setting_id": 4,
+    "name": "mosConfiguration",
+    "display_name": "MOS Configuration",
+    "value": "2",
+    "description": "Set the MOS threshold value. Default is 2",
+    "default_value": "2",
+    "max_value": 5,
+    "min_value": 0,
+    "data_type": "Integer",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 5,
+    "name": "showObscured",
+    "display_name": "Show Obscured Rows",
+    "value": "true",
+    "description": "If set to true, then it displays the obscured rows. Default value is true.",
+    "default_value": "true",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 6,
+    "name": "showNodeMapped",
+    "display_name": "Show Node Mapped",
+    "value": "false",
+    "description": "If set to true, then it displays the node mapped values. Default value is false.",
+    "default_value": "false",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 7,
+    "name": "showRelativeTime",
+    "display_name": "Show Relative Time",
+    "value": "false",
+    "description": "If set to true, then it displays the relative time. Default value is false.",
+    "default_value": "false",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 8,
+    "name": "displayLadderDiagramAsLandingPage",
+    "display_name": "Display Ladder Diagram as Landing Page",
+    "value": "false",
+    "description": "If enabled the landing view will be the Ladder Diagram.",
+    "default_value": "false",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  },
+  {
+    "setting_id": 9,
+    "name": "getSessionInfoDataOnPageOpening",
+    "display_name": "Get Session Info data on page opening",
+    "value": "true",
+    "description": "If enabled the ers-trace query to get Session Info will be done all the times without the user to click a button.",
+    "default_value": "false",
+    "max_value": null,
+    "min_value": null,
+    "data_type": "Boolean",
+    "group": "Ladder"
+  }
+]
