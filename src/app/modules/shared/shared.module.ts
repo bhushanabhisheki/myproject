@@ -8,24 +8,29 @@ import { NgModule } from '@angular/core';
 import { MatIconModule } from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatDividerModule} from '@angular/material/divider';
-
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 
 // import app specific
+import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.component';
 
 @NgModule({
   declarations: [
+    ThemeSwitchComponent
   ],
 
   imports: [
     MatIconModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonToggleModule
   ],
   exports: [
+    ThemeSwitchComponent,
     MatIconModule,
     MatButtonModule,
-    MatDividerModule
+    MatDividerModule,
+    MatButtonToggleModule
   ],
 })
 export class SharedModule { }
