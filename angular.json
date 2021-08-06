@@ -16,9 +16,9 @@
       "i18n": {
         "sourceLocale": "en-US",
         "locales": {
-            "fr": "src/locale/messages.fr.xlf",
-            "de": "src/locale/messages.de.xlf"
-          }
+          "fr": "src/locale/messages.fr.xlf",
+          "de": "src/locale/messages.de.xlf"
+        }
       },
       "root": "",
       "sourceRoot": "src",
@@ -34,7 +34,7 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
-            "aot":true,
+            "aot": true,
             "assets": [
               "src/favicon.ico",
               "src/assets"
@@ -73,11 +73,15 @@
               "vendorChunk": false,
               "buildOptimizer": true
             },
-            "fr" :{
-              "localize":["fr"]
+            "fr": {
+              "localize": [
+                "fr"
+              ]
             },
-            "de":{
-             "localize":["de"]
+            "de": {
+              "localize": [
+                "de"
+              ]
             },
             "development": {
               "buildOptimizer": false,
@@ -135,9 +139,21 @@
             ],
             "scripts": []
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "src/**/*.ts",
+              "src/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "EwpDashboard"
+  "defaultProject": "EwpDashboard",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
