@@ -115,3 +115,27 @@ All template logic will be extracted into a component. Which helps to cover that
 #### Break down into small reusable components.
 
 This might be an extension of the Single responsibility principle. Large components are very difficult to debug, manage and test. If the component becomes large, break it down into more reusable smaller components to reduce duplication of the code, so that we can easily manage, maintain and debug with less effort.
+
+#### CDK Virtual Scroll
+
+CDK Virtual Scroll is a very important tool at your disposal which you can utilize the gain some good performance over your development. For example, if you have a larger file more than a thousand to display at the same time, it will make the application vulnerable and likely to slow down the performances. CDK Virtual Scroll can be found inside the Angular Material Package which helps developers enhances the performance of the applications and visualize the larger file in the browser.
+
+#### Angular Coding Styles
+
+- Per file, the code must not exceed from 400 lines limit
+- Per function, the code must not exceed from 75 lines
+- Utilize custom prefix to share feature area for all slider components
+- If the values of the variables are intact, declare it with ‘const’
+- If you often prefix names for field, table, and database,
+  then you need to avoid this for Interface names like iShape, AbastractShape, etc.
+- Names of properties and methods should be in lower camel case
+- Always leave one empty line between imports and module such as third party
+  and application
+
+  #### State Management
+
+  State Management in Angular helps in managing state transitions by storing the state of any form of data. There are various state management libraries such as NGRX, NGXS, Akita, etc and all with different usages, states, and purposes. All of them are good to use, though NGXS could the preferred one as most of the developers have referred this as most usable and easy to learn the tool.
+
+### For more coding guidelines :
+
+https://www.tatvasoft.com/blog/angular-optimization-and-best-practices/
