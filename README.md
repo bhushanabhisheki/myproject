@@ -106,10 +106,10 @@ The variable of type string has only some set of values and we can declare the l
 
 Declare variables or constants with proper types other than any. This will reduce unintended problems. Another advantage of having good typings in our application is that it makes refactoring easier.
 
-### Avoid logic in templates
+#### Avoid logic in templates
 
 All template logic will be extracted into a component. Which helps to cover that case in a unit test and reduce bugs when there is template change.
 
-### Break down into small reusable components.
+##### Break down into small reusable components.
 
 This might be an extension of the Single responsibility principle. Large components are very difficult to debug, manage and test. If the component becomes large, break it down into more reusable smaller components to reduce duplication of the code, so that we can easily manage, maintain and debug with less effort.
