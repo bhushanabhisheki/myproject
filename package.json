@@ -32,6 +32,7 @@
     "@ngx-translate/core": "^13.0.0",
     "@ngx-translate/http-loader": "^6.0.0",
     "acorn": "^6.1.1",
+    "angular-gridster2": "^12.1.0",
     "angular-slickgrid": "^3.0.5",
     "jquery": "^3.6.0",
     "rxjs": "~6.6.0",

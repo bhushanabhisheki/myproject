@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 // import all third party module here
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { AngularSlickgridModule } from 'angular-slickgrid';
+import { GridsterModule } from 'angular-gridster2';
 
 // import all angular material module here
 import { MatIconModule } from '@angular/material/icon';
@@ -23,7 +24,8 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatDividerModule,
     MatButtonToggleModule,
     FlexLayoutModule,
-    AngularSlickgridModule
+    AngularSlickgridModule,
+    GridsterModule
   ],
   exports: [
     ThemeSwitchComponent,
@@ -32,7 +34,8 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatDividerModule,
     MatButtonToggleModule,
     FlexLayoutModule,
-    AngularSlickgridModule
+    AngularSlickgridModule,
+    GridsterModule
   ]
 })
 export class SharedModule {}
