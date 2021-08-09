@@ -43,7 +43,12 @@
               "src/app-theme.scss",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.js"
+            ],
+            "allowedCommonJsDependencies": [
+              "stream"
+            ]
           },
           "configurations": {
             "production": {

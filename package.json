@@ -29,8 +29,13 @@
     "@angular/platform-browser": "~12.1.1",
     "@angular/platform-browser-dynamic": "~12.1.1",
     "@angular/router": "~12.1.1",
+    "@ngx-translate/core": "^13.0.0",
+    "@ngx-translate/http-loader": "^6.0.0",
     "acorn": "^6.1.1",
+    "angular-slickgrid": "^3.0.5",
+    "jquery": "^3.6.0",
     "rxjs": "~6.6.0",
+    "stream-browserify": "^3.0.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
   },

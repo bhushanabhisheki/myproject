@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 
 // import all third party module here
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { AngularSlickgridModule } from 'angular-slickgrid';
 
 // import all angular material module here
 import { MatIconModule } from '@angular/material/icon';
@@ -21,7 +22,8 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatButtonModule,
     MatDividerModule,
     MatButtonToggleModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularSlickgridModule
   ],
   exports: [
     ThemeSwitchComponent,
@@ -29,7 +31,8 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatButtonModule,
     MatDividerModule,
     MatButtonToggleModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    AngularSlickgridModule
   ]
 })
 export class SharedModule {}
