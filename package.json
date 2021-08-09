@@ -34,8 +34,9 @@
     "acorn": "^6.1.1",
     "angular-gridster2": "^12.1.0",
     "angular-slickgrid": "^3.0.5",
+    "d3": "^7.0.0",
     "jquery": "^3.6.0",
-    "rxjs": "~6.6.0",
+    "rxjs": "^6.6.7",
     "stream-browserify": "^3.0.0",
     "tslib": "^2.2.0",
     "zone.js": "~0.11.4"
@@ -49,6 +50,7 @@
     "@angular-eslint/template-parser": "12.3.1",
     "@angular/cli": "~12.1.1",
     "@angular/compiler-cli": "~12.1.1",
+    "@types/d3": "^7.0.0",
     "@types/jasmine": "~3.6.0",
     "@types/node": "^12.11.1",
     "@typescript-eslint/eslint-plugin": "4.28.2",
