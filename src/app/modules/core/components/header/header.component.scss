@@ -1,3 +1,26 @@
 .header {
-  background-color: var(--status-bar-color);
+  background-color: black;
+}
+
+.mat-toolbar {
+  min-height: 50px !important;
+  height: 50px !important;
+  padding-left: 0px;
+  background-color: black;
+}
+
+::ng-deep .mat-menu-content {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.mat-menu-item {
+  line-height: 35px;
+  height: 35px;
+}
+
+.report-title {
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 0.8em;
 }

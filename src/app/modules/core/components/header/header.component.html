@@ -1,4 +1,64 @@
-<div class="header" fxLayoutAlign="start center">
-  <img src="../assets/images/logo.svg" alt="" style="height: 3.5em" />
-  Reports - 5G Edge
-</div>
+<app-theme-switch style="display: none" [theme]="selectedTheme"></app-theme-switch>
+<mat-toolbar>
+  <div fxLayoutAlign="start tart">
+    <img src="../assets/images/logo.svg" alt="" style="height: 2.5em" />
+  </div>
+  <div class="report-title">Reports - 5G Edge</div>
+  <div fxFlex fxLayout fxLayoutAlign="flex-end" fxHide.xs>
+    <button mat-button [matMenuTriggerFor]="theMenu" fxLayoutAlign="end center" color="primary">
+      Welcome Bhushan
+      <mat-icon>arrow_drop_down</mat-icon>
+    </button>
+    <mat-menu #theMenu="matMenu">
+      <mat-divider></mat-divider>
+      <button mat-menu-item disabled>
+        <span>Reports</span>
+      </button>
+      <mat-button mat-menu-item>
+        <mat-icon>arrow_downward</mat-icon>
+        <span>Import Report</span>
+      </mat-button>
+      <mat-button mat-menu-item>
+        <mat-icon>arrow_upward</mat-icon>
+        <span>Export Report</span>
+      </mat-button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item disabled>
+        <span>Email Report</span>
+      </button>
+      <mat-button mat-menu-item>
+        <mat-icon>email</mat-icon>
+        <span>Send Via Email</span>
+      </mat-button>
+      <mat-button mat-menu-item>
+        <mat-icon>schedule</mat-icon>
+        <span>Scheduled Reports</span>
+      </mat-button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item disabled>
+        <span>Configure</span>
+      </button>
+      <mat-button mat-menu-item>
+        <mat-icon>list_alt</mat-icon>
+        <span>Email List</span>
+      </mat-button>
+      <mat-divider></mat-divider>
+      <button mat-menu-item disabled>
+        <span>Select Theme</span>
+      </button>
+      <mat-button mat-menu-item (click)="selectedTheme = 'light-theme'">
+        <mat-icon>donut_large</mat-icon>
+        <span>Light Theme</span>
+      </mat-button>
+      <mat-button mat-menu-item (click)="selectedTheme = 'dark-theme'">
+        <mat-icon>donut_small</mat-icon>
+        <span>Dark Theme</span>
+      </mat-button>
+      <mat-divider></mat-divider>
+      <mat-button mat-menu-item>
+        <mat-icon>exit_to_app</mat-icon>
+        <span>Log Out</span>
+      </mat-button>
+    </mat-menu>
+  </div>
+</mat-toolbar>

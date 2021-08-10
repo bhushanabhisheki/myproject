@@ -11,6 +11,11 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatButtonToggleModule } from '@angular/material/button-toggle';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatListModule } from '@angular/material/list';
+import { MatTooltipModule } from '@angular/material/tooltip';
+import { MatFormFieldModule } from '@angular/material/form-field';
 
 // import app specific
 import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.component';
@@ -23,6 +28,11 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatButtonModule,
     MatDividerModule,
     MatButtonToggleModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatListModule,
+    MatTooltipModule,
+    MatFormFieldModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule
@@ -33,6 +43,11 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
     MatButtonModule,
     MatDividerModule,
     MatButtonToggleModule,
+    MatMenuModule,
+    MatToolbarModule,
+    MatListModule,
+    MatTooltipModule,
+    MatFormFieldModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule
