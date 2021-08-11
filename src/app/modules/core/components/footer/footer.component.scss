@@ -1,9 +1,14 @@
 .footer {
-  background-color: var(--status-bar-color);
+  background-color: black;
 
   a {
     text-decoration: none;
     font-weight: normal;
-    color: var(--text-color);
+    color: white;
+  }
+
+  .mat-icon {
+    font-size: 15px;
+    color: white;
   }
 }
