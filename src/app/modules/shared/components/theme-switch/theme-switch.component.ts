@@ -1,6 +1,5 @@
-import { Component, Inject, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, Inject, Input, OnChanges } from '@angular/core';
 import { DOCUMENT } from '@angular/common';
-import { textChangeRangeIsUnchanged } from 'typescript';
 
 @Component({
   selector: 'app-theme-switch',
@@ -25,9 +24,12 @@ export class ThemeSwitchComponent implements OnChanges {
     this.selectDarkTheme();
   }
 
-  ngOnChanges(changes: SimpleChanges) {
-    if (this.theme === ThemeSwitchComponent.DARK_THEME_CLASS) this.selectDarkTheme();
-    else this.selectLightTheme();
+  ngOnChanges(): void {
+    if (this.theme === ThemeSwitchComponent.DARK_THEME_CLASS) {
+      this.selectDarkTheme();
+    } else {
+      this.selectLightTheme();
+    }
   }
 
   public selectDarkTheme(): void {
