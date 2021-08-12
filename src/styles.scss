@@ -8,12 +8,14 @@
   @import 'src/assets/scss/app-theme.scss';
   @include angular-material-theme($dark-app-theme);
   @include generate-theme-vars($dark-app-theme);
+  --primary-color: lightcoral;
 }
 
 .light-theme {
   @import 'src/assets/scss/app-theme.scss';
   @include angular-material-theme($light-app-theme);
   @include generate-theme-vars($light-app-theme);
+  --primary-color: #6ea128;
 }
 
 html,

@@ -1,0 +1,12 @@
+.querytoolbar {
+  height: 40px;
+  background-color: #f3f3f3;
+}
+
+.querytoolbar button {
+  transform: scale(0.7);
+}
+
+.querytoolbar button:not(:first-child) {
+  margin-left: -15px;
+}

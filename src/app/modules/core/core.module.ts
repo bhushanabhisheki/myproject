@@ -1,5 +1,6 @@
 // import angular framework module here
 import { NgModule } from '@angular/core';
+import { QueryBuilderModule } from '../querybuilder/querybuilder.module';
 import { SharedModule } from '../shared/shared.module';
 import { CoreLayoutComponent } from './components/core-layout/core-layout.component';
 import { FooterComponent } from './components/footer/footer.component';
@@ -15,7 +16,7 @@ import { SubHeaderComponent } from './components/sub-header/sub-header.component
     MainBodyComponent,
     FooterComponent
   ],
-  imports: [SharedModule],
+  imports: [SharedModule, QueryBuilderModule],
   exports: [CoreLayoutComponent]
 })
 export class CoreModule {}

@@ -1,0 +1,12 @@
+<div class="daterangepicker" fxLayout="column">
+  <div fxFlex class="ranges" *ngIf="dateTimePickerOptions.showRange">
+    <ul>
+      <li
+        *ngFor="let range of dateRanges; index as i"
+        [ngClass]="{ active: dateTimePickerOptions.selectedRange === range }"
+      >
+        {{ range }}
+      </li>
+    </ul>
+  </div>
+</div>
