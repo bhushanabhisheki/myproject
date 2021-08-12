@@ -4,9 +4,44 @@
       <li
         *ngFor="let range of dateRanges; index as i"
         [ngClass]="{ active: dateTimePickerOptions.selectedRange === range }"
+        (click)="setTimeRange(range)"
       >
         {{ range }}
       </li>
     </ul>
+  </div>
+  <div fxFlex [ngClass]="{ 'disable-picker': disableDateRangePicker }">
+    <div fxFlex="{{ dateTimePickerOptions.showBothCalendar ? 50 : 100 }}" class="calendar-left">
+      <div fxLayout="column" fxLayoutAlign="space-around center">
+        <label for="startTimeInput">From</label>
+        <input
+          matInput
+          [ngModel]="selectedStartDate"
+          (ngModelChange)="onDateChange($event, 'left')"
+          [ngClass]="{ 'invalid-date': !isFromDateValid }"
+        />
+        <mat-calendar
+          #calendarLeft
+          [selected]="selectedStartDate"
+          (selectedChange)="onDateSelect($event, 'left')"
+        ></mat-calendar>
+      </div>
+    </div>
+    <div fxFlex *ngIf="dateTimePickerOptions.showBothCalendar">
+      <div fxLayout="column" fxLayoutAlign="space-around center">
+        <label for="endTimeInput">To</label>
+        <input
+          matInput
+          [ngModel]="selectedEndDate"
+          (ngModelChange)="onDateChange($event, 'right')"
+          [ngClass]="{ 'invalid-date': !isToDateValid }"
+        />
+        <mat-calendar
+          #calendarRight
+          [selected]="selectedEndDate"
+          (selectedChange)="onDateSelect($event, 'right')"
+        ></mat-calendar>
+      </div>
+    </div>
   </div>
 </div>

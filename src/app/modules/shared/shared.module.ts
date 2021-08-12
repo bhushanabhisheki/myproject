@@ -17,11 +17,14 @@ import { MatListModule } from '@angular/material/list';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSidenavModule } from '@angular/material/sidenav';
+import { MatDatepickerModule } from '@angular/material/datepicker';
+import { MatNativeDateModule } from '@angular/material/core';
 
 // import app specific
 import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.component';
 import { DateRangePickerComponent } from './components/date-range-picker/date-range-picker.component';
 import { CommonModule } from '@angular/common';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [ThemeSwitchComponent, DateRangePickerComponent],
@@ -37,10 +40,13 @@ import { CommonModule } from '@angular/common';
     MatTooltipModule,
     MatFormFieldModule,
     MatSidenavModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   exports: [
     ThemeSwitchComponent,
@@ -55,6 +61,8 @@ import { CommonModule } from '@angular/common';
     MatTooltipModule,
     MatFormFieldModule,
     MatSidenavModule,
+    MatDatepickerModule,
+    MatNativeDateModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule,
