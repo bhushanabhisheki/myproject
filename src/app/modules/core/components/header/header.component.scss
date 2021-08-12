@@ -1,12 +1,16 @@
 .header {
-  background-color: black;
+  background-color: red;
 }
 
 .mat-toolbar {
   min-height: 40px !important;
-  height: 40px !important;
+  height: 2.2em !important;
   padding-left: 0px;
   background-color: black;
+
+  img {
+    height: 2.2em;
+  }
 }
 
 ::ng-deep .mat-menu-content {
