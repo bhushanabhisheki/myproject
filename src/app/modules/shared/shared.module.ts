@@ -19,15 +19,18 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatDatepickerModule } from '@angular/material/datepicker';
 import { MatNativeDateModule } from '@angular/material/core';
+import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 // import app specific
 import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.component';
 import { DateRangePickerComponent } from './components/date-range-picker/date-range-picker.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { ListSearchCardComponent } from './components/list-search-card/list-search-card.component';
 
 @NgModule({
-  declarations: [ThemeSwitchComponent, DateRangePickerComponent],
+  declarations: [ThemeSwitchComponent, DateRangePickerComponent, ListSearchCardComponent],
 
   imports: [
     MatIconModule,
@@ -42,6 +45,8 @@ import { FormsModule } from '@angular/forms';
     MatSidenavModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatCardModule,
+    MatCheckboxModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule,
@@ -51,6 +56,7 @@ import { FormsModule } from '@angular/forms';
   exports: [
     ThemeSwitchComponent,
     DateRangePickerComponent,
+    ListSearchCardComponent,
     MatIconModule,
     MatButtonModule,
     MatDividerModule,
@@ -63,6 +69,8 @@ import { FormsModule } from '@angular/forms';
     MatSidenavModule,
     MatDatepickerModule,
     MatNativeDateModule,
+    MatCardModule,
+    MatCheckboxModule,
     FlexLayoutModule,
     AngularSlickgridModule,
     GridsterModule,

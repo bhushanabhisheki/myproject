@@ -4,8 +4,48 @@
   fxFlex
   [class.mat-elevation-z8]="true"
 >
-  <mat-drawer fxFlex #drawer opened mode="over" position="start" style="width: 500px">
-    <app-date-range-picker></app-date-range-picker>
+  <mat-drawer #drawer mode="over" position="start" style="width: 100%">
+    <div fxFlex fxLayout="row" style="width: 100%">
+      <!-- <div fxFlex="38"> -->
+      <!-- </div> -->
+      <div fxFlex="97" style="overflow: auto; scrollbar-width: thin">
+        <div fxFlex fxLayout="row">
+          <div fxFlex fxLayout="column">
+            <app-date-range-picker></app-date-range-picker>
+          </div>
+          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
+          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
+          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
+          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
+          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
+        </div>
+      </div>
+      <div fxFlex="3" style="background-color: blue"></div>
+    </div>
+    <!-- <div> -->
+    <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
+    <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
+    <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
+    <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
+    <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
+    <!-- </div> -->
   </mat-drawer>
-  <mat-drawer-content>asdas</mat-drawer-content>
+  <mat-drawer-content fxLayoutAlign="column">
+    <div fxFlexFill fxLayoutAlign="start stretch" fxLayout="row" class="root">
+      <app-date-range-picker fxFlex="40"></app-date-range-picker>
+      <app-yellow fxFlex></app-yellow>
+      <app-yellow fxFlex></app-yellow>
+      <app-yellow fxFlex></app-yellow>
+    </div>
+
+    <!-- <app-list-search-card -->
+    <!-- fxLayout="row" -->
+    <!-- style="margin: 5px; width: 250px; display: inline; border: 1px solid red" -->
+    <!-- ></app-list-search-card> -->
+    <!-- <app-list-search-card -->
+    <!-- fxLayout="row" -->
+    <!-- style="margin: 5px; width: 250px; display: inline" -->
+    <!-- ></app-list-search-card> -->
+    <!-- <app-list-search-card style="margin: 5px; width: 250px; display: inline"></app-list-search-card> -->
+  </mat-drawer-content>
 </mat-drawer-container>
