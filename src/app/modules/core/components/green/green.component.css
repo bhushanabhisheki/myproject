@@ -1,6 +1,4 @@
 .green {
-  background: green;
-  color: white;
   border: 5px bisque solid;
 }
 :host {
