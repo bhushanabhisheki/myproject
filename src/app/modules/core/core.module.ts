@@ -2,7 +2,6 @@
 import { NgModule } from '@angular/core';
 import { QueryBuilderModule } from '../querybuilder/querybuilder.module';
 import { SharedModule } from '../shared/shared.module';
-import { BlueComponent } from './components/blue/blue.component';
 import { CoreLayoutComponent } from './components/core-layout/core-layout.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { GreenComponent } from './components/green/green.component';
@@ -18,7 +17,6 @@ import { YellowComponent } from './components/yellow/yellow.component';
     SubHeaderComponent,
     MainBodyComponent,
     FooterComponent,
-    BlueComponent,
     YellowComponent,
     GreenComponent
   ],
