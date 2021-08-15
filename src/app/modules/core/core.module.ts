@@ -8,8 +8,6 @@ import { FooterComponent } from './components/footer/footer.component';
 import { GreenComponent } from './components/green/green.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainBodyComponent } from './components/main-body/main-body.component';
-import { RedComponent } from './components/red/red.component';
-import { ScrollableOrangeComponent } from './components/scrollable-orange/scrollable-orange.component';
 import { SubHeaderComponent } from './components/sub-header/sub-header.component';
 import { YellowComponent } from './components/yellow/yellow.component';
 
@@ -21,10 +19,8 @@ import { YellowComponent } from './components/yellow/yellow.component';
     MainBodyComponent,
     FooterComponent,
     BlueComponent,
-    RedComponent,
     YellowComponent,
-    GreenComponent,
-    ScrollableOrangeComponent
+    GreenComponent
   ],
   imports: [SharedModule, QueryBuilderModule],
   exports: [CoreLayoutComponent]
