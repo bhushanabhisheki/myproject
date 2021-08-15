@@ -5,7 +5,31 @@
       <div fxFlex="50" style="margin-right: 20px" fxLayoutAlign="end start">Step 1 of 4</div>
     </div>
   </div>
-  <app-green fxFlex style="border-radius: 10px; border: 2px solid #73ad21"></app-green>
-  <!-- <div fxFlex style="border-radius: 10px; border: 2px solid #73ad21; margin-right: 5px"> -->
-  <!-- </div> -->
+  <div
+    fxFlex
+    fxLayout="column"
+    fxlayoutAlign="start stretch"
+    style="border-radius: 10px; border: 2px solid lightgray"
+  >
+    <div>
+      <div fxFlex fxLayout="row" style="margin: 10px">
+        <div fxFlex="70">Interface</div>
+        <div fxLayoutAlign="end start">
+          <input matInput class="list-search-card-input" type="text" style="width: 5em" />
+        </div>
+      </div>
+    </div>
+    <app-green fxFlex style="margin: 0.2em; border: 1px solid gray"></app-green>
+    <div>
+      <button mat-raised-button>
+        <mat-icon>check_circle</mat-icon>
+      </button>
+      <button mat-raised-button>
+        <mat-icon>check_circle_outline</mat-icon>
+      </button>
+      <button mat-raised-button>
+        <mat-icon>repeat</mat-icon>
+      </button>
+    </div>
+  </div>
 </div>

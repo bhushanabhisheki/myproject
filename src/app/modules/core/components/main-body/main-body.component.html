@@ -33,9 +33,16 @@
   <mat-drawer-content fxLayoutAlign="column">
     <div fxFlexFill fxLayoutAlign="start stretch" fxLayout="row" class="root">
       <app-date-range-picker fxFlex="40"></app-date-range-picker>
-      <app-yellow fxFlex></app-yellow>
-      <app-yellow fxFlex></app-yellow>
-      <app-yellow fxFlex></app-yellow>
+      <div fxFlex fxLayout="column">
+        <app-yellow class="step" fxFlex></app-yellow>
+        <app-yellow fxFlex class="step"></app-yellow>
+      </div>
+
+      <app-yellow fxFlex class="step"></app-yellow>
+      <app-yellow fxFlex class="step"></app-yellow>
+      <app-yellow fxFlex class="step"></app-yellow>
+      <app-yellow fxFlex class="step"></app-yellow>
+      <app-yellow fxFlex class="step"></app-yellow>
     </div>
 
     <!-- <app-list-search-card -->
