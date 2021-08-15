@@ -1,6 +1,6 @@
 <div fxLayout="column" fxlayoutAlign="start stretch" fxFlexFill>
   <div fxFlex="none">
-    <div fxFlex fxLayout="row">
+    <div fxFlex fxLayout="row" style="font-weight: bold; font-size: 0.95em">
       <div fxFlex="50" style="margin-left: 10px">Interface</div>
       <div fxFlex="50" style="margin-right: 20px" fxLayoutAlign="end start">Step 1 of 4</div>
     </div>
@@ -9,17 +9,25 @@
     fxFlex
     fxLayout="column"
     fxlayoutAlign="start stretch"
-    style="border-radius: 10px; border: 2px solid lightgray"
+    style="
+      margin: 2px;
+      border-radius: 0.15em;
+      box-shadow: 0 0 0 1px lightgray, 0 0 0 4px #f1eded, 0 0 0 5px lightgray;
+    "
   >
     <div>
-      <div fxFlex fxLayout="row" style="margin: 10px">
+      <div
+        fxFlex
+        fxLayout="row"
+        style="margin: 10px; margin-bottom: 0.2em; font-weight: bold; font-size: 0.95em"
+      >
         <div fxFlex="70">Interface</div>
         <div fxLayoutAlign="end start">
           <input matInput class="list-search-card-input" type="text" style="width: 5em" />
         </div>
       </div>
     </div>
-    <app-green fxFlex style="margin: 0.2em; border: 1px solid gray"></app-green>
+    <app-green fxFlex style="margin: 0.4em; border: 1px solid gray; font-size: 0.95em"></app-green>
     <div>
       <button mat-raised-button>
         <mat-icon>check_circle</mat-icon>

@@ -1,4 +1,5 @@
 .green {
+  padding: 5px;
 }
 :host {
   overflow-y: auto;
