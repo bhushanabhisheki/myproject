@@ -4,23 +4,43 @@
   fxFlex
   [class.mat-elevation-z8]="true"
 >
-  <mat-drawer #drawer mode="over" position="start" style="width: 100%">
+  <mat-drawer #drawer mode="over" opened position="start" style="width: 100%">
     <div fxFlex fxLayout="row" style="width: 100%">
-      <!-- <div fxFlex="38"> -->
-      <!-- </div> -->
-      <div fxFlex="97" style="overflow: auto; scrollbar-width: thin">
+      <div fxFlex="3"></div>
+      <div fxFlex="94" style="overflow: auto; scrollbar-width: thin">
         <div fxFlex fxLayout="row">
-          <div fxFlex fxLayout="column">
-            <app-date-range-picker></app-date-range-picker>
+          <div fxFlexFill fxLayoutAlign="start stretch" fxLayout="row" class="root">
+            <app-date-range-picker fxFlex="40"></app-date-range-picker>
+            <div fxFlex fxLayout="column">
+              <app-yellow class="step" fxFlex></app-yellow>
+              <app-yellow fxFlex class="step"></app-yellow>
+            </div>
+            <app-yellow fxFlex class="step"></app-yellow>
+            <app-yellow fxFlex class="step"></app-yellow>
+            <app-yellow fxFlex class="step"></app-yellow>
+            <app-yellow fxFlex class="step"></app-yellow>
+            <app-yellow fxFlex class="step"></app-yellow>
           </div>
-          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
-          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
-          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
-          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
-          <!-- <app-list-search-card style="width: 350px; display: inline"></app-list-search-card> -->
         </div>
       </div>
-      <div fxFlex="3" style="background-color: blue"></div>
+      <div
+        fxFlex="4"
+        style="
+          background-color: #6ea128;
+          border: 2px solid gray;
+          font-size: x-small;
+          font-weight: bold;
+          vertical-align: middle;
+          color: white;
+        "
+      >
+        <div fxFlex fxLayout="row" fxLayoutAlign="start center">
+          <button style="background-color: transparent; border: none">
+            <mat-icon>play_circle_filled</mat-icon>
+            Apply
+          </button>
+        </div>
+      </div>
     </div>
     <!-- <div> -->
     <!-- <app-list-search-card fxFlex="20"></app-list-search-card> -->
