@@ -6,7 +6,9 @@
 >
   <mat-drawer #drawer mode="over" opened position="start" style="width: 100%">
     <div fxFlex fxLayout="row" style="width: 100%" style="overflow: hidden">
-      <div fxFlex="3"></div>
+      <div fxFlex="3">
+        <app-quick-access-toolbar></app-quick-access-toolbar>
+      </div>
       <div fxFlex="94" style="overflow: auto; scrollbar-width: thin">
         <div fxFlex fxLayout="row">
           <div fxFlexFill fxLayoutAlign="start stretch" fxLayout="row" class="root">
