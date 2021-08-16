@@ -8,6 +8,8 @@ const SETTINGS = require('./mock/settings.json');
 
 const USERS = require('./mock/users.json');
 
+const PERSPECTIVE = require('./mock/perspective.json');
+
 // Constants
 const PORT = 8080;
 const HOST = '0.0.0.0';
@@ -30,6 +32,10 @@ app.get('/ewp-dashboard/settings', (req, res) => {
 
 app.get('/ewp-dashboard/users', (req, res) => {
   res.json(USERS);
+});
+
+app.get('/ewp-dashboard/perspective', (req, res) => {
+  res.json(PERSPECTIVE);
 });
 
 app.listen(PORT, HOST);

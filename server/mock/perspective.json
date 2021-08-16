@@ -1,0 +1,3911 @@
+{
+  "id": 19,
+  "perspectiveName": "5G Slicing Edge",
+  "aggregationTable": "Empty",
+  "currentMode": null,
+  "enableMap": false,
+  "visualizationList": [],
+  "datasetList": [
+    {
+      "id": 0,
+      "name": "Default",
+      "type": "Dataset",
+      "showLED": false,
+      "titleEnabled": null,
+      "subtitleEnabled": null,
+      "pdfGenDataObj": null,
+      "chartType": null,
+      "chartCode": 0,
+      "dualGrouping": false,
+      "groupingDimension": [
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "apn_id",
+            "displayName": "APN",
+            "description": "APN",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "apn",
+              "propertyDisplayName": "APN",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "apn_group",
+              "propertyDisplayName": "APN Group",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group1",
+              "propertyDisplayName": "group1",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group10",
+              "propertyDisplayName": "group10",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group2",
+              "propertyDisplayName": "group2",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group3",
+              "propertyDisplayName": "group3",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group4",
+              "propertyDisplayName": "group4",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group5",
+              "propertyDisplayName": "group5",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group6",
+              "propertyDisplayName": "group6",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group7",
+              "propertyDisplayName": "group7",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group8",
+              "propertyDisplayName": "group8",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group9",
+              "propertyDisplayName": "group9",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "protocol_error_id",
+            "displayName": "Cause",
+            "description": "Causes for both Voice and Mobile",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "error_flag",
+              "propertyDisplayName": "Error Flag",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "error_group",
+              "propertyDisplayName": "Error Group",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "error_reason",
+              "propertyDisplayName": "Protocol Cause",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "failure_code",
+              "propertyDisplayName": "Cause Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group1",
+              "propertyDisplayName": "group1",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group10",
+              "propertyDisplayName": "group10",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group2",
+              "propertyDisplayName": "group2",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group3",
+              "propertyDisplayName": "group3",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group4",
+              "propertyDisplayName": "group4",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group5",
+              "propertyDisplayName": "group5",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group6",
+              "propertyDisplayName": "group6",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group7",
+              "propertyDisplayName": "group7",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group8",
+              "propertyDisplayName": "group8",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group9",
+              "propertyDisplayName": "group9",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "protocol_name",
+              "propertyDisplayName": "Protocol",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "reason",
+              "propertyDisplayName": "Cause Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "reason_group",
+              "propertyDisplayName": "Reason Group",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "interface_id",
+            "displayName": "Interface",
+            "description": "Interface",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "description",
+              "propertyDisplayName": "Interface Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "interface",
+              "propertyDisplayName": "Interface Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_type",
+              "propertyDisplayName": "Network Type",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "slice_id",
+            "displayName": "Network Slice",
+            "description": "Network Slice",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "customer",
+              "propertyDisplayName": "Customer",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_slice_code",
+              "propertyDisplayName": "Slice Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_slice_description",
+              "propertyDisplayName": "Slice Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_slice_name",
+              "propertyDisplayName": "Slice Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "sd_code",
+              "propertyDisplayName": "Slice Differentiator Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "sd_name",
+              "propertyDisplayName": "Slice Differentiator Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "sst_code",
+              "propertyDisplayName": "Slice Type Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "sst_name",
+              "propertyDisplayName": "Slice Type Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "network_element_a_id",
+            "displayName": "Peer Network Element",
+            "description": "A Network Element representing peer side",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "address",
+              "propertyDisplayName": "Network Element Address",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "carrier",
+              "propertyDisplayName": "Carrier",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "city",
+              "propertyDisplayName": "City",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "country",
+              "propertyDisplayName": "Country",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "customer",
+              "propertyDisplayName": "Customer",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "customer_location",
+              "propertyDisplayName": "Customer Location",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "description",
+              "propertyDisplayName": "Network Element Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group1",
+              "propertyDisplayName": "group1",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group10",
+              "propertyDisplayName": "group10",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group2",
+              "propertyDisplayName": "group2",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group3",
+              "propertyDisplayName": "group3",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group4",
+              "propertyDisplayName": "group4",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group5",
+              "propertyDisplayName": "group5",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group6",
+              "propertyDisplayName": "group6",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group7",
+              "propertyDisplayName": "group7",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group8",
+              "propertyDisplayName": "group8",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group9",
+              "propertyDisplayName": "group9",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "interfaces",
+              "propertyDisplayName": "Network Element Interface",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "latitude",
+              "propertyDisplayName": "Latitude",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "longitude",
+              "propertyDisplayName": "Longitude",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "manufacturer_info",
+              "propertyDisplayName": "Network Element Manufacturer Info",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "name",
+              "propertyDisplayName": "Network Element Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_element_type",
+              "propertyDisplayName": "Network Element Type",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "port",
+              "propertyDisplayName": "Network Element Port",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "postal_code",
+              "propertyDisplayName": "Postal Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "property",
+              "propertyDisplayName": "Network Element Property",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region",
+              "propertyDisplayName": "Region",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region_id",
+              "propertyDisplayName": "Network Element Region ID",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region_market",
+              "propertyDisplayName": "Region/Market",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "service",
+              "propertyDisplayName": "Service",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "short_name",
+              "propertyDisplayName": "Network Element Short Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "procedure_id",
+            "displayName": "Procedure",
+            "description": "Procedure",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "description",
+              "propertyDisplayName": "Procedure Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "event_code",
+              "propertyDisplayName": "Event Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "event_drilldown_name",
+              "propertyDisplayName": "Event Drilldown Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "event_type",
+              "propertyDisplayName": "Event Type",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group1",
+              "propertyDisplayName": "group1",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group10",
+              "propertyDisplayName": "group10",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group2",
+              "propertyDisplayName": "group2",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group3",
+              "propertyDisplayName": "group3",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group4",
+              "propertyDisplayName": "group4",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group5",
+              "propertyDisplayName": "group5",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group6",
+              "propertyDisplayName": "group6",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group7",
+              "propertyDisplayName": "group7",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group8",
+              "propertyDisplayName": "group8",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group9",
+              "propertyDisplayName": "group9",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "long_description",
+              "propertyDisplayName": "Protocol Procedure Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "protocol_name",
+              "propertyDisplayName": "Protocol",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "qos_aspects",
+              "propertyDisplayName": "QOS Aspects",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "network_element_b_id",
+            "displayName": "Target Network Element",
+            "description": "Network Element representing target",
+            "rootDimension": null,
+            "groupBy": "fiveg_edge_aggregator"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "address",
+              "propertyDisplayName": "Network Element Address",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "carrier",
+              "propertyDisplayName": "Carrier",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "city",
+              "propertyDisplayName": "City",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "country",
+              "propertyDisplayName": "Country",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "customer",
+              "propertyDisplayName": "Customer",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "customer_location",
+              "propertyDisplayName": "Customer Location",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "description",
+              "propertyDisplayName": "Network Element Description",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group1",
+              "propertyDisplayName": "group1",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group10",
+              "propertyDisplayName": "group10",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group2",
+              "propertyDisplayName": "group2",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group3",
+              "propertyDisplayName": "group3",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group4",
+              "propertyDisplayName": "group4",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group5",
+              "propertyDisplayName": "group5",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group6",
+              "propertyDisplayName": "group6",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group7",
+              "propertyDisplayName": "group7",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group8",
+              "propertyDisplayName": "group8",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "group9",
+              "propertyDisplayName": "group9",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "interfaces",
+              "propertyDisplayName": "Network Element Interface",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "latitude",
+              "propertyDisplayName": "Latitude",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "longitude",
+              "propertyDisplayName": "Longitude",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "manufacturer_info",
+              "propertyDisplayName": "Network Element Manufacturer Info",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "name",
+              "propertyDisplayName": "Network Element Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "network_element_type",
+              "propertyDisplayName": "Network Element Type",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "port",
+              "propertyDisplayName": "Network Element Port",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "postal_code",
+              "propertyDisplayName": "Postal Code",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "property",
+              "propertyDisplayName": "Network Element Property",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region",
+              "propertyDisplayName": "Region",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region_id",
+              "propertyDisplayName": "Network Element Region ID",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "region_market",
+              "propertyDisplayName": "Region/Market",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "service",
+              "propertyDisplayName": "Service",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            },
+            {
+              "propertyName": "short_name",
+              "propertyDisplayName": "Network Element Short Name",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        },
+        {
+          "dimensionInfoId": 0,
+          "dimension": {
+            "dimensionName": "Time",
+            "displayName": "Time",
+            "description": "Time",
+            "rootDimension": null,
+            "groupBy": "Time"
+          },
+          "dimensionPropertyList": [
+            {
+              "propertyName": "Time",
+              "propertyDisplayName": "Time",
+              "propertyValues": null,
+              "enableThreshold": false,
+              "userDisplayName": null
+            }
+          ]
+        }
+      ],
+      "metricsList": [
+        {
+          "metricsName": "app_average_bitrate_downlink",
+          "description": "Packet Loss Ratio measured in the downlink direction (network to mobile)",
+          "unit": "bps",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "APP Average Bitrate Downlink (bps)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "app_average_bitrate_uplink",
+          "description": "Packet Loss Ratio measured in the uplink direction (mobile to network)",
+          "unit": "bps",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "APP Average Bitrate Uplink (bps)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "app_average_client_response_time",
+          "description": "Average Client Response Time (TCP SINACK-SIN)",
+          "unit": "msec",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "APP Average Client Response Time (msec)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "app_average_network_response_time",
+          "description": "Average Network Response Time (TCP SINACK-SIN)",
+          "unit": "msec",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "APP Average Network Response Time (msec)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "app_average_server_response_time",
+          "description": "Average Server Response Time (TCP SINACK-SIN)",
+          "unit": "msec",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "APP Average Server Response Time (msec)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "app_average_application_response_time",
+          "description": "Avg Application Response Time",
+          "unit": "msec",
+          "aggregationType": "max",
+          "metricsType": "KPI",
+          "displayName": "APP Avg Application Response Time (msec)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "total_app_bytes",
+          "description": "Total data volume (APP) transferred",
+          "unit": "bytes",
+          "aggregationType": "sum",
+          "metricsType": "KPI",
+          "displayName": "APP Bytes Volume (bytes)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "total_app_bytes_downlink",
+          "description": "Total data volume (APP) transferred in the downlink direction (network to mobile)",
+          "unit": "bytes",
+          "aggregationType": "sum",
+          "metricsType": "KPI",
+          "displayName": "APP Bytes Volume Downlink (bytes)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "total_app_bytes_uplink",
+          "description": "Total data volume (APP) transferred in the uplink direction (mobile to network)",
+          "unit": "bytes",
+          "aggregationType": "sum",
+          "metricsType": "KPI",
+          "displayName": "APP Bytes Volume Uplink  (bytes)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "avg_procedure_duration",
+          "description": "Average duration of procedure",
+          "unit": "msec",
+          "aggregationType": "avg",
+          "metricsType": "KPI",
+          "displayName": "Avg Procedure Duration (msec)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "failed_procedure_rate",
+          "description": "Percentage value indicating the fail ratio between the number of failed procedures and the total number of procedures",
+          "unit": null,
+          "aggregationType": "ratio",
+          "metricsType": "KPI",
+          "displayName": "Failed Procedure Rate",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "procedure_count",
+          "description": "Count of number of procedures",
+          "unit": null,
+          "aggregationType": "count",
+          "metricsType": "KPI",
+          "displayName": "Procedure Count",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        },
+        {
+          "metricsName": "total_packets",
+          "description": "Total Packets (network to mobile)",
+          "unit": "packets",
+          "aggregationType": "sum",
+          "metricsType": "KPI",
+          "displayName": "Total Packets (packets)",
+          "userDisplayName": null,
+          "advancedMetric": false,
+          "groupBy": "fiveg_edge_aggregator",
+          "threshold": null
+        }
+      ],
+      "toolTipThreshold": 0,
+      "isEnabled": null,
+      "customViewId": 0,
+      "customViewName": null,
+      "enableThreshold": false,
+      "includeNotEnriched": false,
+      "sizeX": 0,
+      "sizeY": 0,
+      "row": 0,
+      "col": 0,
+      "leftAxis": null,
+      "rightAxis": null,
+      "overtime": false,
+      "halfRound": false,
+      "defaultTableColumnsOrder": null,
+      "sortedColumns": null,
+      "hiddenColumns": null,
+      "columnOrder": null,
+      "columnFilters": null,
+      "stackedEnabled": false,
+      "tabIndex": null,
+      "customFilters": null,
+      "customDimensionsFilters": null,
+      "isLinkDisabled": null,
+      "linkedId": null,
+      "parentId": null,
+      "hashKey": null,
+      "linkedDimensions": null,
+      "identifier": null,
+      "linkedTabs": null,
+      "labelText": null,
+      "filter": null,
+      "customTimeRangeEnabled": null,
+      "sortBy": null,
+      "top": null,
+      "targetDashboard": null,
+      "serviceModelNodes": [],
+      "sourceType": null,
+      "alarmingConfigData": null,
+      "subtitle": null,
+      "isSecondaryDashboard": null,
+      "isTimeGrouping": null,
+      "valueType": null,
+      "viewBoxTrend": false,
+      "hideEmptyValues": false,
+      "enableLightMode": false,
+      "isKIValuesTable": null
+    }
+  ],
+  "enableAutoRefresh": true,
+  "sinceMidNight": false,
+  "enableDefaultAutoRefresh": true,
+  "enableDefaultRange": false,
+  "defaultAutoRefreshStartTime": "-1|Days|None",
+  "defaultRangeStartTime": "-1|Days|12:00 am",
+  "defaultRangeStopTime": "0|Days|12:00 am",
+  "aggregationPeriod": null,
+  "defaultRangeGranularity": "Minutes",
+  "defaultLastGranularity": "Hourly",
+  "enableScheduler": true,
+  "enableGranularity": false,
+  "perspectiveType": "dor",
+  "perspectiveTypeLabel": "Diagnostix Operational Report",
+  "category": "Diagnostix",
+  "role": "none",
+  "icon": "glyphicon-signal",
+  "drilldownEnabled": true,
+  "tabsList": [],
+  "sourceList": [
+    {
+      "id": 1,
+      "sourceType": "Aggregation Table",
+      "aggregationTable": "fiveg_edge_aggregator",
+      "aggregationPeriod": 5,
+      "serviceModel": null
+    }
+  ],
+  "targetDashboardList": null,
+  "workflowEnabled": true,
+  "filtersEnabled": true,
+  "timeSelectionEnabled": true,
+  "autoApplyEnabled": false,
+  "defaultIncludeNotEnriched": false,
+  "solutionPackages": [
+    "5G Standalone (SA)"
+  ],
+  "roles": null,
+  "promptEnabled": false,
+  "defaultReports": [
+    {
+      "filterName": "5G Slicing Edge",
+      "userName": "ganoop",
+      "perspectiveName": "5G Slicing Edge",
+      "perspectiveId": 75,
+      "is_private": false,
+      "icon": null,
+      "isView": true,
+      "isFilter": false,
+      "organization": null,
+      "group": null,
+      "currentMode": null,
+      "filterRequiredData": {
+        "filter": null,
+        "agingPeriod": null,
+        "workflow": null,
+        "columnFilters": null,
+        "visualizationList": [
+          {
+            "id": 0,
+            "name": "Data Traffic by Time",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=total_app_bytes&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "total_app_bytes",
+                "description": "Total data volume (APP) transferred",
+                "unit": "bytes",
+                "aggregationType": "sum",
+                "metricsType": "KPI",
+                "displayName": "APP Bytes Volume (bytes)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": {
+                  "critical": false,
+                  "major": false,
+                  "minor": false,
+                  "warning": false,
+                  "clear": false
+                }
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 0,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": null,
+            "hashKey": null,
+            "linkedDimensions": [
+              "slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": "Data Traffic by Time1624291021575TZRVZ",
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Data Traffic by Slice",
+            "type": "Multi Bar Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "1",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=total_app_bytes&groupingDimensions=slice_id.sst_name,slice_id.sd_name&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Multi Bar Chart",
+            "chartCode": 1,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "total_app_bytes",
+                "description": "Total data volume (APP) transferred",
+                "unit": "bytes",
+                "aggregationType": "sum",
+                "metricsType": "KPI",
+                "displayName": "APP Bytes Volume (bytes)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 0,
+            "col": 8,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:2517"
+            ],
+            "parentId": null,
+            "hashKey": "object:1126",
+            "linkedDimensions": [
+              "slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Data Traffic by City",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_a_id.city,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=total_app_bytes&groupingDimensions=network_element_a_id.city,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_a_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_a_id",
+                  "displayName": "Peer Network Element",
+                  "description": "A Network Element representing peer side",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "city",
+                    "propertyDisplayName": "City",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "total_app_bytes",
+                "description": "Total data volume (APP) transferred",
+                "unit": "bytes",
+                "aggregationType": "sum",
+                "metricsType": "KPI",
+                "displayName": "APP Bytes Volume (bytes)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 0,
+            "col": 16,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1126",
+            "hashKey": "object:2517",
+            "linkedDimensions": [
+              "undefined ● network_element_a_id.city"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "DL Bitrate by Time",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_downlink&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_downlink",
+                "description": "Packet Loss Ratio measured in the downlink direction (network to mobile)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Downlink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 6,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": null,
+            "hashKey": null,
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "DL Bitrate by Slice",
+            "type": "Multi Bar Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "1",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_downlink&groupingDimensions=slice_id.sst_name,slice_id.sd_name&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Multi Bar Chart",
+            "chartCode": 1,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_downlink",
+                "description": "Packet Loss Ratio measured in the downlink direction (network to mobile)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Downlink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 6,
+            "col": 8,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:3981"
+            ],
+            "parentId": null,
+            "hashKey": "object:1081",
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "UL Bitrate by Time",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_uplink&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_uplink",
+                "description": "Packet Loss Ratio measured in the uplink direction (mobile to network)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Uplink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 12,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": null,
+            "hashKey": null,
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "UL Bitrate by Slice",
+            "type": "Multi Bar Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "1",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_uplink&groupingDimensions=slice_id.sst_name,slice_id.sd_name&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Multi Bar Chart",
+            "chartCode": 1,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_uplink",
+                "description": "Packet Loss Ratio measured in the uplink direction (mobile to network)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Uplink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 12,
+            "col": 8,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:4869"
+            ],
+            "parentId": null,
+            "hashKey": "object:1083",
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "DL Bitrate by City",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_a_id.city,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_downlink&groupingDimensions=network_element_a_id.city,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_a_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_a_id",
+                  "displayName": "Peer Network Element",
+                  "description": "A Network Element representing peer side",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "city",
+                    "propertyDisplayName": "City",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_downlink",
+                "description": "Packet Loss Ratio measured in the downlink direction (network to mobile)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Downlink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 6,
+            "col": 16,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1081",
+            "hashKey": "object:3981",
+            "linkedDimensions": [
+              "undefined ● network_element_a_id.city"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "UL Bitrate by City",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_a_id.city,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_bitrate_uplink&groupingDimensions=network_element_a_id.city,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_a_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_a_id",
+                  "displayName": "Peer Network Element",
+                  "description": "A Network Element representing peer side",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "city",
+                    "propertyDisplayName": "City",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_bitrate_uplink",
+                "description": "Packet Loss Ratio measured in the uplink direction (mobile to network)",
+                "unit": "bps",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Bitrate Uplink (bps)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 12,
+            "col": 16,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1083",
+            "hashKey": "object:4869",
+            "linkedDimensions": [
+              "undefined ● network_element_a_id.city"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Latency by Time",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_server_response_time&groupingDimensions=slice_id.sst_name,slice_id.sd_name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_server_response_time",
+                "description": "Average Server Response Time (TCP SINACK-SIN)",
+                "unit": "msec",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Server Response Time (msec)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 18,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": null,
+            "hashKey": null,
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Latency by Slice",
+            "type": "Multi Bar Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "1",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_server_response_time&groupingDimensions=slice_id.sst_name,slice_id.sd_name&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Multi Bar Chart",
+            "chartCode": 1,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_server_response_time",
+                "description": "Average Server Response Time (TCP SINACK-SIN)",
+                "unit": "msec",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Server Response Time (msec)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 18,
+            "col": 8,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:5327"
+            ],
+            "parentId": null,
+            "hashKey": "object:1342",
+            "linkedDimensions": [
+              "undefined ● slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Procedure count by Slice",
+            "type": "Heatmap",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "55",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=procedure_count&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id,interface_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Heatmap",
+            "chartCode": 55,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "interface_id",
+                  "displayName": "Interface",
+                  "description": "Interface",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "description",
+                    "propertyDisplayName": "Interface Description",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "procedure_count",
+                "description": "Count of number of procedures",
+                "unit": null,
+                "aggregationType": "count",
+                "metricsType": "KPI",
+                "displayName": "Procedure Count",
+                "userDisplayName": "Procedure Count",
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": {
+                  "critical": false,
+                  "major": false,
+                  "minor": false,
+                  "warning": false,
+                  "clear": false
+                }
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 24,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": [],
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:3924"
+            ],
+            "parentId": null,
+            "hashKey": "object:1283",
+            "linkedDimensions": [
+              "slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": "Procedure count by Slice16243572227374TXA6",
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Procedure count by Node",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_b_id.name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=procedure_count&groupingDimensions=network_element_b_id.name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_b_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_b_id",
+                  "displayName": "Target Network Element",
+                  "description": "Network Element representing target",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "name",
+                    "propertyDisplayName": "Network Element Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "procedure_count",
+                "description": "Count of number of procedures",
+                "unit": null,
+                "aggregationType": "count",
+                "metricsType": "KPI",
+                "displayName": "Procedure Count",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 24,
+            "col": 12,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1283",
+            "hashKey": "object:3924",
+            "linkedDimensions": [
+              "undefined ● network_element_b_id.name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Failure Rate by Slice",
+            "type": "Heatmap",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "55",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=failed_procedure_rate&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id,interface_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Heatmap",
+            "chartCode": 55,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "interface_id",
+                  "displayName": "Interface",
+                  "description": "Interface",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "description",
+                    "propertyDisplayName": "Interface Description",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "failed_procedure_rate",
+                "description": "Percentage value indicating the fail ratio between the number of failed procedures and the total number of procedures",
+                "unit": null,
+                "aggregationType": "ratio",
+                "metricsType": "KPI",
+                "displayName": "Failed Procedure Rate",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 30,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": false,
+            "linkedId": [
+              "object:11796"
+            ],
+            "parentId": null,
+            "hashKey": "object:3467",
+            "linkedDimensions": [
+              "slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Failure Rate by Node",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_b_id.name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=failed_procedure_rate&groupingDimensions=network_element_b_id.name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_b_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_b_id",
+                  "displayName": "Target Network Element",
+                  "description": "Network Element representing target",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "name",
+                    "propertyDisplayName": "Network Element Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "failed_procedure_rate",
+                "description": "Percentage value indicating the fail ratio between the number of failed procedures and the total number of procedures",
+                "unit": null,
+                "aggregationType": "ratio",
+                "metricsType": "KPI",
+                "displayName": "Failed Procedure Rate",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 30,
+            "col": 12,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": [],
+            "columnOrder": [],
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:3467",
+            "hashKey": "object:11796",
+            "linkedDimensions": [
+              "undefined ● network_element_b_id.name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "AVG Procedure Duration by Slice",
+            "type": "Heatmap",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "55",
+              "currentGroupDimension": "&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=avg_procedure_duration&groupingDimensions=slice_id.sst_name,slice_id.sd_name,interface_id.description&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=slice_id,interface_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Heatmap",
+            "chartCode": 55,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sst_name",
+                    "propertyDisplayName": "Slice Type Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "slice_id",
+                  "displayName": "Network Slice",
+                  "description": "Network Slice",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "sd_name",
+                    "propertyDisplayName": "Slice Differentiator Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              },
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "interface_id",
+                  "displayName": "Interface",
+                  "description": "Interface",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "description",
+                    "propertyDisplayName": "Interface Description",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "avg_procedure_duration",
+                "description": "Average duration of procedure",
+                "unit": "msec",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "Avg Procedure Duration (msec)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 36,
+            "col": 0,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": false,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": null,
+            "columnOrder": null,
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": [
+              "object:4411"
+            ],
+            "parentId": null,
+            "hashKey": "object:1339",
+            "linkedDimensions": [
+              "slice_id.sst_name ● slice_id.sd_name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "AVG Procedure Duration by Node",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_b_id.name,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=avg_procedure_duration&groupingDimensions=network_element_b_id.name,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_b_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_b_id",
+                  "displayName": "Target Network Element",
+                  "description": "Network Element representing target",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "name",
+                    "propertyDisplayName": "Network Element Name",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "avg_procedure_duration",
+                "description": "Average duration of procedure",
+                "unit": "msec",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "Avg Procedure Duration (msec)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 12,
+            "sizeY": 6,
+            "row": 36,
+            "col": 12,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": null,
+            "columnOrder": null,
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1339",
+            "hashKey": "object:4411",
+            "linkedDimensions": [
+              "undefined ● network_element_b_id.name"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          },
+          {
+            "id": 0,
+            "name": "Latency by City",
+            "type": "Line Chart",
+            "showLED": false,
+            "titleEnabled": "true",
+            "subtitleEnabled": "false",
+            "pdfGenDataObj": {
+              "currentChartType": "3",
+              "currentGroupDimension": "&groupingDimensions=network_element_a_id.city,time",
+              "currentQuery": [
+                "/mediation-reports/aggregators/fiveg_edge_aggregator/metricValues?fromTime=2021-06-24T10:30:00&toTime=2021-06-25T10:30:00&inputGranularity=HOURLY&metrics=app_average_server_response_time&groupingDimensions=network_element_a_id.city,time&dimensionFilter=slice_id.sst_name=eMBB,MIoT,URLCC&excludeReservedDimensions=network_element_a_id"
+              ],
+              "isSecondaryDashboard": null,
+              "isDefaultView": null,
+              "parentManagedObject": null
+            },
+            "chartType": "Line Chart",
+            "chartCode": 3,
+            "dualGrouping": false,
+            "groupingDimension": [
+              {
+                "dimensionInfoId": 0,
+                "dimension": {
+                  "dimensionName": "network_element_a_id",
+                  "displayName": "Peer Network Element",
+                  "description": "A Network Element representing peer side",
+                  "rootDimension": null,
+                  "groupBy": "fiveg_edge_aggregator"
+                },
+                "dimensionPropertyList": [
+                  {
+                    "propertyName": "city",
+                    "propertyDisplayName": "City",
+                    "propertyValues": null,
+                    "enableThreshold": false,
+                    "userDisplayName": null
+                  }
+                ]
+              }
+            ],
+            "metricsList": [
+              {
+                "metricsName": "app_average_server_response_time",
+                "description": "Average Server Response Time (TCP SINACK-SIN)",
+                "unit": "msec",
+                "aggregationType": "avg",
+                "metricsType": "KPI",
+                "displayName": "APP Average Server Response Time (msec)",
+                "userDisplayName": null,
+                "advancedMetric": false,
+                "groupBy": "fiveg_edge_aggregator",
+                "threshold": null
+              }
+            ],
+            "toolTipThreshold": 0,
+            "isEnabled": false,
+            "customViewId": 0,
+            "customViewName": null,
+            "enableThreshold": false,
+            "includeNotEnriched": false,
+            "sizeX": 8,
+            "sizeY": 6,
+            "row": 18,
+            "col": 16,
+            "leftAxis": null,
+            "rightAxis": null,
+            "overtime": true,
+            "halfRound": false,
+            "defaultTableColumnsOrder": null,
+            "sortedColumns": null,
+            "hiddenColumns": null,
+            "columnOrder": null,
+            "columnFilters": null,
+            "stackedEnabled": false,
+            "tabIndex": 1,
+            "customFilters": null,
+            "customDimensionsFilters": null,
+            "isLinkDisabled": null,
+            "linkedId": null,
+            "parentId": "object:1342",
+            "hashKey": "object:5327",
+            "linkedDimensions": [
+              "undefined ● network_element_a_id.city"
+            ],
+            "identifier": null,
+            "linkedTabs": null,
+            "labelText": null,
+            "filter": null,
+            "customTimeRangeEnabled": false,
+            "sortBy": null,
+            "top": null,
+            "targetDashboard": null,
+            "serviceModelNodes": null,
+            "sourceType": "Aggregation Table",
+            "aggregationTable": "fiveg_edge_aggregator",
+            "alarmingConfigData": null,
+            "subtitle": null,
+            "isSecondaryDashboard": null,
+            "isTimeGrouping": false,
+            "valueType": null,
+            "viewBoxTrend": false,
+            "hideEmptyValues": false,
+            "enableLightMode": false,
+            "isKIValuesTable": null
+          }
+        ]
+      },
+      "tabsList": [
+        {
+          "name": "Default",
+          "linkedParent": null,
+          "linkedTooltip": null,
+          "availableFilters": null
+        }
+      ],
+      "defaultReport": true,
+      "alarmLevels": null,
+      "favorite": true,
+      "type": "CHARTS"
+    }
+  ],
+  "workflowList": [
+    {
+      "id": 79,
+      "title": "Workflow1",
+      "created": 1628677855826,
+      "workspaceList": [
+        {
+          "workSpaceId": 380,
+          "title": "Slice Type Name",
+          "step": 1,
+          "required": true,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "slice_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "sst_name",
+                  "propertyDisplayName": "Slice Type Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Slice Type Name"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 381,
+          "title": "Slice Differentiator NameD",
+          "step": 2,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "slice_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "sd_name",
+                  "propertyDisplayName": "Slice Differentiator Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Slice Differentiator NameD"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 382,
+          "title": "Peer NE.City",
+          "step": 3,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "network_element_a_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "city",
+                  "propertyDisplayName": "City",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Peer NE.City"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 383,
+          "title": "Network Element",
+          "step": 4,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "network_element_b_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "name",
+                  "propertyDisplayName": "Network Element Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Target NE"
+                }
+              ]
+            },
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "network_element_a_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "name",
+                  "propertyDisplayName": "Network Element Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Peer NE"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 384,
+          "title": "DNN",
+          "step": 5,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "apn_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "apn",
+                  "propertyDisplayName": "APN",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "DNN"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 385,
+          "title": "Cause",
+          "step": 6,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "protocol_error_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "error_reason",
+                  "propertyDisplayName": "Protocol Cause",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Cause"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "title": "Workflow3",
+      "created": 1628677855826,
+      "workspaceList": [
+        {
+          "workSpaceId": 386,
+          "title": "Slice Type Name",
+          "step": 1,
+          "required": true,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "slice_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "sst_name",
+                  "propertyDisplayName": "Slice Type Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Slice Type Name"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 387,
+          "title": "Slice Differentiator NameD",
+          "step": 2,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "slice_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "sd_name",
+                  "propertyDisplayName": "Slice Differentiator Name",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Slice Differentiator NameD"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 388,
+          "title": "Target NE.Type",
+          "step": 3,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "network_element_b_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "network_element_type",
+                  "propertyDisplayName": "Network Element Type",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Target NE.Type"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 389,
+          "title": "Target NE.City",
+          "step": 4,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "network_element_b_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "city",
+                  "propertyDisplayName": "City",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Target NE.City"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 390,
+          "title": "DNN",
+          "step": 5,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "apn_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "apn",
+                  "propertyDisplayName": "APN",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "DNN"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        },
+        {
+          "workSpaceId": 391,
+          "title": "Cause",
+          "step": 6,
+          "required": false,
+          "probables": false,
+          "dependentOnStep": null,
+          "exclusive": false,
+          "loadData": false,
+          "moveForward": false,
+          "dimensionProperties": [
+            {
+              "dimensionInfoId": 0,
+              "dimension": {
+                "dimensionName": "protocol_error_id",
+                "displayName": null,
+                "description": null,
+                "rootDimension": null,
+                "groupBy": null
+              },
+              "dimensionPropertyList": [
+                {
+                  "propertyName": "error_reason",
+                  "propertyDisplayName": "Protocol Cause",
+                  "showActuals": false,
+                  "multiselect": false,
+                  "propertyValues": [
+                    ""
+                  ],
+                  "dimensionPropertyLabel": "Cause"
+                }
+              ]
+            }
+          ],
+          "selectedFilters": null
+        }
+      ]
+    }
+  ],
+  "filters": [],
+  "promptFilters": []
+}
