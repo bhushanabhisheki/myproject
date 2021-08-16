@@ -4,11 +4,9 @@ import { QueryBuilderModule } from '../querybuilder/querybuilder.module';
 import { SharedModule } from '../shared/shared.module';
 import { CoreLayoutComponent } from './components/core-layout/core-layout.component';
 import { FooterComponent } from './components/footer/footer.component';
-import { GreenComponent } from './components/green/green.component';
 import { HeaderComponent } from './components/header/header.component';
 import { MainBodyComponent } from './components/main-body/main-body.component';
 import { SubHeaderComponent } from './components/sub-header/sub-header.component';
-import { YellowComponent } from './components/yellow/yellow.component';
 
 @NgModule({
   declarations: [
@@ -16,9 +14,7 @@ import { YellowComponent } from './components/yellow/yellow.component';
     HeaderComponent,
     SubHeaderComponent,
     MainBodyComponent,
-    FooterComponent,
-    YellowComponent,
-    GreenComponent
+    FooterComponent
   ],
   imports: [SharedModule, QueryBuilderModule],
   exports: [CoreLayoutComponent]

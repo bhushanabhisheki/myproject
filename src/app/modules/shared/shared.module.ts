@@ -27,9 +27,16 @@ import { ThemeSwitchComponent } from './components/theme-switch/theme-switch.com
 import { DateRangePickerComponent } from './components/date-range-picker/date-range-picker.component';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { SearchListComponent } from './components/search-list/search-list.component';
+import { SearchListItemsComponent } from './components/search-list-items/search-list-items.component';
 
 @NgModule({
-  declarations: [ThemeSwitchComponent, DateRangePickerComponent],
+  declarations: [
+    ThemeSwitchComponent,
+    DateRangePickerComponent,
+    SearchListComponent,
+    SearchListItemsComponent
+  ],
 
   imports: [
     MatIconModule,
@@ -55,6 +62,8 @@ import { FormsModule } from '@angular/forms';
   exports: [
     ThemeSwitchComponent,
     DateRangePickerComponent,
+    SearchListComponent,
+    SearchListItemsComponent,
     MatIconModule,
     MatButtonModule,
     MatDividerModule,
