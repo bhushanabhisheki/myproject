@@ -1,7 +1,10 @@
 {
   "context": [
           "/ewp-dashboard/settings",
-          "/ewp-dashboard/users"
+          "/ewp-dashboard/users",
+          "/ewp-dashboard/perspective",
+          "/ewp-dashboard/apilist",
+          "/ewp-dashboard/app"
   ],
   "target": "http://localhost:8080",
   "secure": false
