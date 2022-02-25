@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { LoggingService } from './modules/core/services/logging.service';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'EwpDashboard';
+
+  constructor(private loggingService: LoggingService) {
+    // eslint-disable-next-line @typescript-eslint/restrict-plus-operands
+    console.log('Enabled = ' + this.loggingService.enabled);
+  }
 }
